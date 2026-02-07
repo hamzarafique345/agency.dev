@@ -115,10 +115,10 @@ export function Services() {
                                 className="group"
                             >
                                 <Card3D className="h-full" intensity={10}>
-                                <div className={`h-full p-5 sm:p-6 lg:p-7 rounded-2xl sm:rounded-3xl bg-[#161E2E]/60 backdrop-blur-sm border border-[#0EA5E9]/20 ${colors.border} transition-all duration-500 hover:bg-[#161E2E]/80 hover:shadow-2xl ${colors.glow} hover:scale-105 card-3d`}>
+                                <div className="h-full p-5 sm:p-6 lg:p-7 rounded-2xl sm:rounded-3xl bg-[#161E2E]/40 backdrop-blur-sm border border-[#0EA5E9]/20 transition-all duration-500 hover:bg-[#0EA5E9]/10 hover:border-[#0EA5E9]/70 hover:shadow-2xl hover:shadow-[#0EA5E9]/40 hover:scale-[1.02] card-3d">
                                     {/* Icon */}
                                     <motion.div
-                                        className={`h-12 w-12 sm:h-14 sm:w-14 rounded-xl sm:rounded-2xl bg-gradient-to-br ${colors.bg} flex items-center justify-center mb-4 sm:mb-5 ${colors.text} relative overflow-hidden`}
+                                        className="h-12 w-12 sm:h-14 sm:w-14 rounded-xl sm:rounded-2xl bg-[#0EA5E9]/20 flex items-center justify-center mb-4 sm:mb-5 text-[#0EA5E9] relative overflow-hidden group-hover:bg-[#0EA5E9]/30 transition-all duration-500"
                                         whileHover={{ scale: 1.05, rotate: 3 }}
                                         transition={{ type: "spring", stiffness: 400 }}
                                     >
@@ -126,12 +126,12 @@ export function Services() {
                                     </motion.div>
 
                                     {/* Title */}
-                                    <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white group-hover:text-gradient transition-all duration-300">
+                                    <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white/90 group-hover:text-white transition-all duration-300">
                                         {service.title}
                                     </h3>
 
                                     {/* Description */}
-                                    <p className="text-white/50 text-sm sm:text-base leading-relaxed mb-4">
+                                    <p className="text-white/50 text-sm sm:text-base leading-relaxed mb-4 group-hover:text-white/70 transition-all duration-300">
                                         {service.description}
                                     </p>
 
@@ -140,7 +140,7 @@ export function Services() {
                                         {service.features.map((feature) => (
                                             <span
                                                 key={feature}
-                                                className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white/5 text-xs font-medium ${colors.text} border border-white/5`}
+                                                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white/5 text-xs font-medium text-[#0EA5E9] border border-white/5 group-hover:bg-[#0EA5E9]/10 group-hover:border-[#0EA5E9]/20 transition-all duration-300"
                                             >
                                                 <Check className="w-3 h-3" />
                                                 {feature}
@@ -151,7 +151,7 @@ export function Services() {
                                     {/* Learn more link */}
                                     <Link
                                         href="#contact"
-                                        className={`inline-flex items-center gap-2 ${colors.text} text-sm font-medium opacity-60 group-hover:opacity-100 transition-all`}
+                                        className="inline-flex items-center gap-2 text-[#0EA5E9] text-sm font-medium opacity-60 group-hover:opacity-100 transition-all"
                                     >
                                         <span>Get Started</span>
                                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

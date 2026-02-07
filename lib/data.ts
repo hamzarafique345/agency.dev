@@ -33,15 +33,10 @@ export const SOCIAL_LINKS = [
     href: 'https://wa.me/923451234567',
     icon: MessageCircle,
   },
-  {
-    name: 'WhatsApp (Zong)',
-    href: 'https://wa.me/923161234567',
-    icon: MessageCircle,
-  },
-];
+]
 
 export const CONTACT_INFO = {
-  telenor: '+92 345 1234567',
+  telenor: '+92 342 1129682',
   zong: '+92 316 1234567',
   whatsappTelenor: 'https://wa.me/923451234567',
   whatsappZong: 'https://wa.me/923161234567',

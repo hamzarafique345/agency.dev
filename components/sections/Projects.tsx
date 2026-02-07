@@ -134,7 +134,7 @@ export function Projects() {
                             variants={itemVariants}
                         >
                             <Card3D className="h-full" intensity={10}>
-                                <div className="h-full rounded-2xl sm:rounded-3xl overflow-hidden bg-[#161E2E]/60 backdrop-blur-sm border border-[#0EA5E9]/20 hover:border-[#0EA5E9]/50 transition-all duration-500 hover:shadow-2xl hover:shadow-[#0EA5E9]/20 card-3d">
+                                <div className="h-full rounded-2xl sm:rounded-3xl overflow-hidden bg-[#161E2E]/40 backdrop-blur-sm border border-[#0EA5E9]/20 hover:border-[#0EA5E9]/70 transition-all duration-500 hover:shadow-2xl hover:shadow-[#0EA5E9]/40 hover:scale-[1.02] hover:bg-[#161E2E]/60 card-3d">
                                 {/* Image Container */}
                                 <div className="relative h-48 sm:h-52 w-full overflow-hidden">
                                     <Image
@@ -182,7 +182,7 @@ export function Projects() {
                                 <div className="p-4 sm:p-5">
                                     {/* Title */}
                                     <div className="flex items-start justify-between gap-2 mb-2">
-                                        <h3 className="text-lg sm:text-xl font-bold text-white group-hover:text-gradient transition-all duration-300 leading-snug">
+                                        <h3 className="text-lg sm:text-xl font-bold text-white/90 group-hover:text-white transition-all duration-300 leading-snug">
                                             {project.title}
                                         </h3>
                                         <motion.div
@@ -194,7 +194,7 @@ export function Projects() {
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-[#CBD5E1] text-sm leading-relaxed mb-4 line-clamp-2">
+                                    <p className="text-[#CBD5E1]/70 text-sm leading-relaxed mb-4 line-clamp-2 group-hover:text-[#CBD5E1] transition-all duration-300">
                                         {project.description}
                                     </p>
 

@@ -89,21 +89,21 @@ export function Contact() {
                     >
                                                 {/* Phone Numbers */}
                                                 <Card3D intensity={10}>
-                                                    <div className="p-6 rounded-2xl bg-[#161E2E]/60 border border-[#0EA5E9]/20 backdrop-blur-sm hover:bg-[#161E2E]/80 hover:border-[#0EA5E9]/40 transition-all text-left">
+                                                    <div className="p-6 rounded-2xl bg-[#161E2E]/40 border border-[#0EA5E9]/20 backdrop-blur-sm hover:bg-[#0EA5E9]/10 hover:border-[#0EA5E9]/70 hover:shadow-xl hover:shadow-[#0EA5E9]/40 hover:scale-[1.02] transition-all duration-500 text-left group">
                                                         <div className="flex items-center gap-3 mb-4">
-                                                            <div className="bg-gradient-to-br from-[#0EA5E9]/20 to-[#06B6D4]/20 p-3 rounded-full">
+                                                            <div className="bg-[#0EA5E9]/20 p-3 rounded-full group-hover:bg-[#0EA5E9]/30 transition-all duration-500">
                                                                 <MessageCircle size={20} className="text-[#0EA5E9]" />
                                                             </div>
-                                                            <p className="text-[#CBD5E1] text-lg font-semibold">Call Us</p>
+                                                            <p className="text-[#CBD5E1]/80 text-lg font-semibold group-hover:text-white transition-all duration-300">Call Us</p>
                                                         </div>
                                                         <div className="space-y-3 pl-2">
-                                                            <a href="tel:+923451234567" className="block text-white hover:text-[#0EA5E9] transition-colors group">
+                                                            <a href="tel:+923451234567" className="block text-white/80 hover:text-[#0EA5E9] transition-colors group/link">
                                                                 <span className="font-medium">Telenor:</span> +92 345 1234567
-                                                                <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                                <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover/link:opacity-100 transition-opacity" />
                                                             </a>
-                                                            <a href="tel:+923161234567" className="block text-white hover:text-[#0EA5E9] transition-colors group">
+                                                            <a href="tel:+923161234567" className="block text-white/80 hover:text-[#0EA5E9] transition-colors group/link">
                                                                 <span className="font-medium">Zong:</span> +92 316 1234567
-                                                                <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                                <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover/link:opacity-100 transition-opacity" />
                                                             </a>
                                                         </div>
                                                     </div>
@@ -111,16 +111,16 @@ export function Contact() {
                         
                                                 {/* LinkedIn */}
                                                 <Card3D intensity={10}>
-                                                    <div className="p-6 rounded-2xl bg-[#161E2E]/60 border border-[#0EA5E9]/20 backdrop-blur-sm hover:bg-[#161E2E]/80 hover:border-[#0EA5E9]/40 transition-all text-left">
+                                                    <div className="p-6 rounded-2xl bg-[#161E2E]/40 border border-[#0EA5E9]/20 backdrop-blur-sm hover:bg-[#0EA5E9]/10 hover:border-[#0EA5E9]/70 hover:shadow-xl hover:shadow-[#0EA5E9]/40 hover:scale-[1.02] transition-all duration-500 text-left group">
                                                         <div className="flex items-center gap-3 mb-4">
-                                                            <div className="bg-gradient-to-br from-[#0EA5E9]/20 to-[#06B6D4]/20 p-3 rounded-full">
+                                                            <div className="bg-[#0EA5E9]/20 p-3 rounded-full group-hover:bg-[#0EA5E9]/30 transition-all duration-500">
                                                                 <MessageCircle size={20} className="text-[#0EA5E9]" />
                                                             </div>
-                                                            <p className="text-[#CBD5E1] text-lg font-semibold">Connect</p>
+                                                            <p className="text-[#CBD5E1]/80 text-lg font-semibold group-hover:text-white transition-all duration-300">Connect</p>
                                                         </div>
-                                                        <Link href="https://www.linkedin.com/in/your-profile" target="_blank" className="inline-flex items-center text-white hover:text-[#0EA5E9] transition-colors font-medium group pl-2">
+                                                        <Link href="https://www.linkedin.com/in/your-profile" target="_blank" className="inline-flex items-center text-white/80 hover:text-[#0EA5E9] transition-colors font-medium group/link pl-2">
                                                             LinkedIn Profile
-                                                            <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                            <ArrowRight className="inline-block ml-2 w-4 h-4 opacity-0 group-hover/link:opacity-100 transition-opacity" />
                                                         </Link>
                                                     </div>
                                                 </Card3D>                    </motion.div>

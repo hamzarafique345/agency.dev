@@ -23,9 +23,13 @@ export function Navbar() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    useEffect(() => {
+    const resetMenuState = () => {
         setIsMobileMenuOpen(false);
         setOpenDropdown(null);
+    };
+
+    useEffect(() => {
+        resetMenuState();
     }, [pathname]);
 
     useEffect(() => {
